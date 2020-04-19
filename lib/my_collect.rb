@@ -3,4 +3,6 @@ def my_collect(collection)
   for i in 0..collection.length 
     new_collection << yield(collection[i]) 
   end
-  
+  new_collection
+end
+
